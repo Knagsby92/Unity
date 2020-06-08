@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 469c24fdb3bd6431b92cc1465bd9166b, type: 3}
+  m_Name: RemoteConfigDataStoreAsset
+  m_EditorClassIdentifier: 
+  rsKeyList:
+  - metadata:
+      entityId: 3190aacf-916f-41d2-997e-acafbb3d99c6
+    rs:
+      key: Speed
+      type: float
+      value: 0
+  rsLastCachedKeyList:
+  - metadata:
+      entityId: 3190aacf-916f-41d2-997e-acafbb3d99c6
+    rs:
+      key: Speed
+      type: float
+      value: 0
+  configId: f0b9b15d-c3e1-4e68-8d7c-b9887bdf0e3d
+  currentEnvironmentId: 96403b9e-a206-43bd-a73b-d2014c48252f
+  environments:
+  - id: 1031b9c1-e4a6-453a-b97c-38df03dc8fd1
+    appId: 
+    name: Remote Config (Default)
+    description: 
+    createdAt: 2020-06-07T21:12:02Z
+    updatedAt: 2020-06-07T21:12:02Z
+  - id: defb3fc5-7758-4cd4-a198-6be7663ee96a
+    appId: 
+    name: Release
+    description: 
+    createdAt: 2020-06-07T21:19:51Z
+    updatedAt: 2020-06-07T21:19:51Z
+  - id: 96403b9e-a206-43bd-a73b-d2014c48252f
+    appId: 
+    name: Development
+    description: 
+    createdAt: 2020-06-07T21:19:51Z
+    updatedAt: 2020-06-07T21:19:51Z
+  rulesList: []
+  lastCachedRulesList: []
+  addedRulesIDs: []
+  updatedRulesIDs: []
+  deletedRulesIDs: []
